@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 
 	"benjaminlee.dev/ProjectManagement/config"
@@ -9,6 +10,7 @@ import (
 )
 
 func main() {
+	// Basic server configuration and setup
 
 	cfg, err := config.LoadConfig()
 	if err != nil {
